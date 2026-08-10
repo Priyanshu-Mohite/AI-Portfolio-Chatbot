@@ -1,0 +1,145 @@
+CANDIDATE PROFILE — PRIYANSHU MOHITE
+
+PERSONAL INFORMATION
+Name: Priyanshu Mohite
+Location: Pune, Maharashtra
+Email: [priyanshu.mohite07@gmail.com](mailto:priyanshu.mohite07@gmail.com)
+
+EDUCATION
+
+* B.Tech in Computer Science Engineering (AIML), Vishwakarma University
+* GPA: 9.05/10.00
+* Class XII (HSC), Akash Public School and Jr College — 82%, 2024
+* Class X (SSC), SSK Public School — 96%, 2022
+
+TECHNICAL SKILLS
+
+Programming Languages:
+
+* C++
+* JavaScript (ES6+)
+
+Frontend:
+
+* React.js
+* Redux Toolkit
+* Context API
+* HTML5
+* CSS3
+* Tailwind CSS
+
+Backend:
+
+* Node.js
+* Express.js
+* REST APIs
+* JWT Authentication
+* FastAPI
+
+Real-Time Systems and Databases:
+
+* WebRTC
+* Mediasoup
+* Socket.IO
+* MongoDB
+* MySQL
+* Redis
+
+Cloud, DevOps and Tools:
+
+* Docker
+* AWS EC2
+* AWS ECR
+* Caddy
+* Git
+* GitHub
+* Postman
+* Cloudinary
+* Stripe
+
+AI / LLM:
+
+* Groq API
+* Llama 3.3 70B
+* AI-powered chatbot development
+* Prompt-based LLM applications
+
+PROJECTS
+
+1. SyncStream — Real-Time Video Conferencing Platform
+
+Tech Stack:
+React.js, Node.js, Express.js, MongoDB, Mediasoup, WebRTC, Socket.IO, JWT, Nodemailer, Docker, AWS EC2, AWS ECR, Caddy
+
+Description:
+
+* Engineered a WebRTC video conferencing platform using Mediasoup SFU and Socket.IO.
+* Achieved sub-200ms latency and 60% lower client bandwidth compared with P2P mesh architecture.
+* Implemented secure authentication using JWT, refresh token rotation, HTTP-only cookies, email OTP, bcrypt hashing, and session logout across devices.
+* Optimized media processing by running one Mediasoup worker per CPU core to reduce bottlenecks and support 50+ concurrent media streams on a cost-effective instance.
+* Containerized and deployed the application using Docker, AWS ECR, and AWS EC2.
+* Configured Caddy as a reverse proxy for automatic HTTPS and secure Mediasoup UDP media transport.
+
+2. StayHub — Full-Stack Vacation Rental Platform
+
+Tech Stack:
+Node.js, Express.js, MongoDB, EJS, Passport.js, Cloudinary, Stripe, Joi
+
+Description:
+
+* Built a full-stack vacation rental application using Node.js, Express.js, and MongoDB.
+* Implemented user authentication, session management, and secure image uploads using Multer.
+* Implemented optimistic concurrency control (OCC) and dynamic date filtering to prevent overlapping bookings.
+* Integrated Stripe with secure webhooks for checkout and payment processing.
+* Integrated Leaflet.js and OpenStreetMap for address-based map markers.
+
+3. LiveBids — Real-Time Auction Engine
+
+Tech Stack:
+React.js, Node.js, Express.js, MongoDB, Socket.IO, Material-UI
+
+Description:
+
+* Built a real-time auction platform supporting live bidding, room-based auctions, synchronized timers, and instant bid updates.
+* Implemented concurrency-safe bidding using MongoDB atomic updates to prevent race conditions.
+* Designed the system to accept only the highest valid bid during simultaneous requests.
+* Implemented persistent auction state with bid history and highest-bid tracking synchronized through WebSockets.
+
+4. AI Portfolio Chatbot — Personal AI Portfolio Assistant
+
+Tech Stack:
+Python, FastAPI, Groq API, Llama 3.3 70B, Render
+
+Description:
+
+* Built an AI-powered portfolio chatbot that acts as a personal assistant for answering recruiter questions about Priyanshu Mohite's education, technical skills, projects, and achievements.
+* Developed the backend using FastAPI.
+* Integrated Groq API with the Llama 3.3 70B model to generate natural-language responses.
+* Created a candidate-profile-based prompting system where the AI answers recruiter questions using the provided candidate profile.
+* Designed the system to avoid hallucinating information and explicitly state when requested information is not available in the candidate profile.
+* The application is planned to be deployed on Render.
+
+ACHIEVEMENTS
+
+* Solved 600+ DSA problems across LeetCode, GeeksforGeeks, and Codeforces.
+* Achieved a 1596 LeetCode rating, placing in the top 24%.
+* Maintained a 113-day LeetCode streak.
+* Qualified for Round 3 of Flipkart GRiD 8.0.
+* Secured 2nd place in the National Science Day IoT Innovation Hackathon at Vishwakarma University.
+* Achieved 9+ SGPA in three consecutive semesters.
+* Selected as Placement Coordinator for the Training & Placement Cell at Vishwakarma University.
+
+RELEVANT COURSEWORK
+
+* Data Structures and Algorithms
+* Object-Oriented Programming
+* Database Management Systems
+* Operating Systems
+
+CAREER PROFILE
+
+Priyanshu Mohite is a B.Tech Computer Science Engineering (AIML) student with strong experience in full-stack development, real-time systems, backend engineering, cloud deployment, and competitive programming.
+
+His major projects include a real-time video conferencing platform using WebRTC and Mediasoup, a full-stack vacation rental platform, a concurrency-safe real-time auction engine, and an AI-powered portfolio chatbot built with FastAPI and Groq's Llama 3.3 70B model.
+
+When answering recruiter questions, only use information explicitly available in this candidate profile. Do not invent technologies, work experience, internships, projects, achievements, responsibilities, or qualifications that are not mentioned here.
