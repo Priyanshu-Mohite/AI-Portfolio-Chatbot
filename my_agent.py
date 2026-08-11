@@ -3,6 +3,7 @@ from groq import Groq
 from dotenv import load_dotenv
 from fastapi import FastAPI
 from pydantic import BaseModel
+from fastapi.middleware.cors import CORSMiddleware
 
 load_dotenv()
 my_api_key = os.getenv("GROQ_API_KEY")
@@ -12,6 +13,14 @@ if not my_api_key :
 
 client = Groq(api_key=my_api_key)
 app = FastAPI()
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"], # Ye frontend ke port (5173) ki requests ko allow karega
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 model = "llama-3.3-70b-versatile"
 
